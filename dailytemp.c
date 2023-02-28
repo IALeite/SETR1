@@ -23,9 +23,11 @@ void dtStat(int* array,int* temps){
 		if(array[i]<temps[1])
 			temps[1]=array[i];
 	}
-	if(array_size==i)
-		i=0;
-	i++;
 	temps[2]=sum/i;
+	if(array_size==i){
+		i=0;
+		sum=0;
+	}
+	i++;
 }
 
