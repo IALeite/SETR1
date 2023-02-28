@@ -28,6 +28,7 @@ void dtStat(int* array,int* temps){
 		i=0;
 		sum=0;
 	}
-	i++;
+	else
+		i++;
 }
 
